@@ -22,7 +22,7 @@ export default class Modal {
       afterHide: () => {}
     }, options);
 
-    this.wrapperHtml = `<div id="${this.options.modalId}" class="modal-wrapper" tabindex="-1" role="dialog"><div class="${this.options.modalClass} modal" role="document"><div class="modal-content">`;
+    this.wrapperHtml = `<div id="${this.options.modalId}" class="${this.options.modalClass}-wrapper modal-wrapper" tabindex="-1" role="dialog"><div class="${this.options.modalClass} modal" role="document"><div class="modal-content">`;
   }
 
   /**
